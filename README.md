@@ -48,8 +48,7 @@ work; the run with 25 tokens could start all 25 requests without meaningful
 worker-pool queueing. The recorded thread IDs also show 10 distinct workers
 in the first run and 25 in the second.
 
-## Outcomes and interpretation
-
+## Outcomes
 For this I/O-style blocking workload and this request volume, increasing the
 worker limit from 10 to 25 reduced total elapsed time from about 6.1 seconds
 to 2.2 seconds by allowing more work to overlap. The wait-time measurements
@@ -57,14 +56,9 @@ show the queueing effect directly. Raising the limit does not make each
 request's blocking operation faster; it lets more of those operations run
 at once.
 
-This is a controlled local experiment, not a universal capacity target.
-Higher worker counts also increase simultaneous resource use, and benefits
-can level off or reverse if the actual workload, upstream service, or host
-cannot sustain the additional concurrency. Repeat runs under the intended
-deployment conditions before choosing a production pool size.
-
-## Additional visualizations
-
 📊 [View Jupyter Notebook](./visualization.ipynb)
 
 📁 [View Load Test Results (JSON)](./load_test_results.json)
+
+## Conclusion
+Increasing the thread-pool limit allows FastAPI to handle more blocking I/O operations concurrently, reducing request waiting times and potentially improving throughput. However, creating more threads increases memory consumption, thread creation overhead and context-switching costs, especially when many threads compete for CPU resources. Therefore, increasing the thread-pool limit does not always improve performance. An optimal limit should be chosen based on network traffic, available system resources and load-testing results.
