@@ -1,0 +1,368 @@
+[
+    {
+        "testcaseid": 1,
+        "max_tokens": 10,
+        "no. of requests": 25,
+        "thread execution stats": [
+            {
+                "request_id": 1,
+                "thread_id": 17052,
+                "waiting_time": 0.005,
+                "execution_time": 2.014,
+                "total_time": 2.02
+            },
+            {
+                "request_id": 2,
+                "thread_id": 32408,
+                "waiting_time": 0.001,
+                "execution_time": 2.005,
+                "total_time": 2.007
+            },
+            {
+                "request_id": 3,
+                "thread_id": 23564,
+                "waiting_time": 0.001,
+                "execution_time": 2.003,
+                "total_time": 2.004
+            },
+            {
+                "request_id": 4,
+                "thread_id": 43424,
+                "waiting_time": 0.001,
+                "execution_time": 2.019,
+                "total_time": 2.02
+            },
+            {
+                "request_id": 5,
+                "thread_id": 27452,
+                "waiting_time": 0.001,
+                "execution_time": 2.015,
+                "total_time": 2.017
+            },
+            {
+                "request_id": 6,
+                "thread_id": 44192,
+                "waiting_time": 0.001,
+                "execution_time": 2.014,
+                "total_time": 2.015
+            },
+            {
+                "request_id": 7,
+                "thread_id": 8456,
+                "waiting_time": 0.002,
+                "execution_time": 2.007,
+                "total_time": 2.009
+            },
+            {
+                "request_id": 8,
+                "thread_id": 50348,
+                "waiting_time": 0.001,
+                "execution_time": 2.005,
+                "total_time": 2.006
+            },
+            {
+                "request_id": 9,
+                "thread_id": 54644,
+                "waiting_time": 0.002,
+                "execution_time": 2.018,
+                "total_time": 2.02
+            },
+            {
+                "request_id": 10,
+                "thread_id": 50740,
+                "waiting_time": 0.002,
+                "execution_time": 2.016,
+                "total_time": 2.017
+            },
+            {
+                "request_id": 11,
+                "thread_id": 17052,
+                "waiting_time": 1.989,
+                "execution_time": 2.002,
+                "total_time": 3.991
+            },
+            {
+                "request_id": 12,
+                "thread_id": 32408,
+                "waiting_time": 1.988,
+                "execution_time": 2.017,
+                "total_time": 4.005
+            },
+            {
+                "request_id": 13,
+                "thread_id": 23564,
+                "waiting_time": 1.986,
+                "execution_time": 2.017,
+                "total_time": 4.003
+            },
+            {
+                "request_id": 14,
+                "thread_id": 8456,
+                "waiting_time": 2.007,
+                "execution_time": 2.01,
+                "total_time": 4.017
+            },
+            {
+                "request_id": 15,
+                "thread_id": 50348,
+                "waiting_time": 2.012,
+                "execution_time": 2.002,
+                "total_time": 4.014
+            },
+            {
+                "request_id": 16,
+                "thread_id": 50740,
+                "waiting_time": 2.01,
+                "execution_time": 2.001,
+                "total_time": 4.011
+            },
+            {
+                "request_id": 17,
+                "thread_id": 54644,
+                "waiting_time": 2.014,
+                "execution_time": 2.01,
+                "total_time": 4.024
+            },
+            {
+                "request_id": 18,
+                "thread_id": 44192,
+                "waiting_time": 2.015,
+                "execution_time": 2.007,
+                "total_time": 4.022
+            },
+            {
+                "request_id": 19,
+                "thread_id": 43424,
+                "waiting_time": 2.014,
+                "execution_time": 2.007,
+                "total_time": 4.021
+            },
+            {
+                "request_id": 20,
+                "thread_id": 27452,
+                "waiting_time": 2.012,
+                "execution_time": 2.008,
+                "total_time": 4.02
+            },
+            {
+                "request_id": 21,
+                "thread_id": 17052,
+                "waiting_time": 3.974,
+                "execution_time": 2.015,
+                "total_time": 5.989
+            },
+            {
+                "request_id": 22,
+                "thread_id": 23564,
+                "waiting_time": 3.99,
+                "execution_time": 2.014,
+                "total_time": 6.004
+            },
+            {
+                "request_id": 23,
+                "thread_id": 32408,
+                "waiting_time": 3.989,
+                "execution_time": 2.014,
+                "total_time": 6.003
+            },
+            {
+                "request_id": 24,
+                "thread_id": 8456,
+                "waiting_time": 4.003,
+                "execution_time": 2.015,
+                "total_time": 6.018
+            },
+            {
+                "request_id": 25,
+                "thread_id": 50348,
+                "waiting_time": 4.004,
+                "execution_time": 2.012,
+                "total_time": 6.017
+            }
+        ],
+        "total_execution_time": 6.095
+    },
+    {
+        "testcaseid": 2,
+        "max_tokens": 25,
+        "no. of requests": 25,
+        "thread execution stats": [
+            {
+                "request_id": 1,
+                "thread_id": 50348,
+                "waiting_time": 0.001,
+                "execution_time": 2.011,
+                "total_time": 2.011
+            },
+            {
+                "request_id": 2,
+                "thread_id": 8456,
+                "waiting_time": 0.001,
+                "execution_time": 2.004,
+                "total_time": 2.005
+            },
+            {
+                "request_id": 3,
+                "thread_id": 44192,
+                "waiting_time": 0.001,
+                "execution_time": 2.014,
+                "total_time": 2.014
+            },
+            {
+                "request_id": 4,
+                "thread_id": 17052,
+                "waiting_time": 0.001,
+                "execution_time": 2.004,
+                "total_time": 2.004
+            },
+            {
+                "request_id": 5,
+                "thread_id": 32408,
+                "waiting_time": 0.001,
+                "execution_time": 2.015,
+                "total_time": 2.015
+            },
+            {
+                "request_id": 6,
+                "thread_id": 8832,
+                "waiting_time": 0.001,
+                "execution_time": 2.015,
+                "total_time": 2.016
+            },
+            {
+                "request_id": 7,
+                "thread_id": 54644,
+                "waiting_time": 0.001,
+                "execution_time": 2.013,
+                "total_time": 2.014
+            },
+            {
+                "request_id": 8,
+                "thread_id": 23564,
+                "waiting_time": 0.001,
+                "execution_time": 2.01,
+                "total_time": 2.01
+            },
+            {
+                "request_id": 9,
+                "thread_id": 60792,
+                "waiting_time": 0.004,
+                "execution_time": 2.007,
+                "total_time": 2.01
+            },
+            {
+                "request_id": 10,
+                "thread_id": 33404,
+                "waiting_time": 0.004,
+                "execution_time": 2.013,
+                "total_time": 2.018
+            },
+            {
+                "request_id": 11,
+                "thread_id": 50740,
+                "waiting_time": 0.001,
+                "execution_time": 2.007,
+                "total_time": 2.008
+            },
+            {
+                "request_id": 12,
+                "thread_id": 40620,
+                "waiting_time": 0.002,
+                "execution_time": 2.012,
+                "total_time": 2.014
+            },
+            {
+                "request_id": 13,
+                "thread_id": 43424,
+                "waiting_time": 0.001,
+                "execution_time": 2.018,
+                "total_time": 2.02
+            },
+            {
+                "request_id": 14,
+                "thread_id": 42372,
+                "waiting_time": 0.001,
+                "execution_time": 2.006,
+                "total_time": 2.008
+            },
+            {
+                "request_id": 15,
+                "thread_id": 17508,
+                "waiting_time": 0.002,
+                "execution_time": 2.004,
+                "total_time": 2.006
+            },
+            {
+                "request_id": 16,
+                "thread_id": 58172,
+                "waiting_time": 0.003,
+                "execution_time": 2.009,
+                "total_time": 2.013
+            },
+            {
+                "request_id": 17,
+                "thread_id": 23920,
+                "waiting_time": 0.001,
+                "execution_time": 2.012,
+                "total_time": 2.013
+            },
+            {
+                "request_id": 18,
+                "thread_id": 27452,
+                "waiting_time": 0.001,
+                "execution_time": 2.003,
+                "total_time": 2.004
+            },
+            {
+                "request_id": 19,
+                "thread_id": 53796,
+                "waiting_time": 0.002,
+                "execution_time": 2.007,
+                "total_time": 2.01
+            },
+            {
+                "request_id": 20,
+                "thread_id": 37536,
+                "waiting_time": 0.003,
+                "execution_time": 2.01,
+                "total_time": 2.013
+            },
+            {
+                "request_id": 21,
+                "thread_id": 56740,
+                "waiting_time": 0.002,
+                "execution_time": 2.007,
+                "total_time": 2.009
+            },
+            {
+                "request_id": 22,
+                "thread_id": 29652,
+                "waiting_time": 0.003,
+                "execution_time": 2.006,
+                "total_time": 2.009
+            },
+            {
+                "request_id": 23,
+                "thread_id": 1668,
+                "waiting_time": 0.003,
+                "execution_time": 2.009,
+                "total_time": 2.012
+            },
+            {
+                "request_id": 24,
+                "thread_id": 16084,
+                "waiting_time": 0.001,
+                "execution_time": 2.008,
+                "total_time": 2.009
+            },
+            {
+                "request_id": 25,
+                "thread_id": 20080,
+                "waiting_time": 0.001,
+                "execution_time": 2.015,
+                "total_time": 2.016
+            }
+        ],
+        "total_execution_time": 2.17
+    }
+]
