@@ -65,4 +65,6 @@ deployment conditions before choosing a production pool size.
 
 ## Additional visualizations
 
-[View Thread Pool Analysis](./visualization.ipynb)
+📊 [View Jupyter Notebook](./visualization.ipynb)
+
+📁 [View Load Test Results (JSON)](./load_test_results.json)
